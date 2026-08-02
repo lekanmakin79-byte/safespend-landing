@@ -56,11 +56,11 @@ export async function POST(request: Request) {
 
     // Increment the referrer's count
     if (referredBy) {
-      const { data: referrer } = await supabase
-        .from("waitlist")
-        .select("id, referral_count")
-        .eq("referral_code", referredBy)
-        .single();
+    const { data: referrer } = await supabase
+  .from("waitlist")
+  .select("id, referral_count, reward")
+  .eq("referral_code", referredBy)
+  .single();
 
      if (referrer) {
 
