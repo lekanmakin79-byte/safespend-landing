@@ -11,6 +11,7 @@ import FinalCTA from "@/components/final-cta";
 import Footer from "@/components/footer";
 import DashboardPreview from "@/components/dashboard-preview";
 import AppAvailability from "@/components/app-availability";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function HomePage() {
   return (
