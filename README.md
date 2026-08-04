@@ -1,6 +1,10 @@
 # SafeSpend
 
-AI-powered financial management landing platform.
+AI-powered financial management platform with a referral waitlist system.
+
+## Screenshot
+
+![SafeSpend Homepage](screenshots/homepage.jpeg)
 
 ## Features
 
